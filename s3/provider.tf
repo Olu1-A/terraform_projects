@@ -11,7 +11,7 @@ terraform {
     key = "terraform/terraform.tfstate" #directory where my statefile will be stored
     dynamodb_table = "tf_db-lock"
     region = var.region[1]
-    UNDER
+    YORU=labe
 */
  }
 
@@ -65,4 +65,13 @@ resource "aws_s3_bucket" "my-s3-bucket" {
   }
   
   tags = var.tags
+}*/
+    /*
+
+output "s3_bucket_name" {
+  value = aws_s3_bucket.my-s3-bucket.id
+}
+
+output "s3_bucket_region" {
+    value = aws_s3_bucket.my-s3-bucket.region
 }*/
