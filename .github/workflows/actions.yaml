@@ -34,4 +34,4 @@ jobs:
       - name: terraform destroy
         run: terraform destroy -auto-approve
 
-#this code works for provisioning s3 bucket as backend
+#this code works for provisioning s3 bucket as backend.
