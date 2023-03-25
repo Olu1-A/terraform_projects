@@ -33,4 +33,5 @@ jobs:
         run: terraform apply -auto-approve  
       - name: terraform destroy
         run: terraform destroy -auto-approve
-      
+
+#this code works for provisioning s3 buckend as backend
