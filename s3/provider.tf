@@ -16,7 +16,7 @@ terraform {
  }
 
 
-# Configure the AWS Provider
+# Configure the AWS Providerbtbbtttt
 provider "aws" {
   region = var.region[1]
 }
